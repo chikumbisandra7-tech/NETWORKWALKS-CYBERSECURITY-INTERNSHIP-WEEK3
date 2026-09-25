@@ -60,8 +60,8 @@ The extracted hashes were tested using the Networkwalks Hash Calculator's built-
 
 Observed results included:
 
-- `My Locked PDF1.pdf` → `password1`
-- `My Locked PDF2.pdf` → `1qaz2wsx`
+- `My Locked PDF2.pdf` → `password1`
+- `My Locked PDF3.pdf` → `1qaz2wsx`
 
 ### 3. Offline Cracking with John the Ripper
 
@@ -80,8 +80,8 @@ The recovered passwords were used to open the corresponding challenge PDFs. The 
 | PDF | Method | Result | Outcome |
 |---|---|---|---|
 | `My Locked PDF1.pdf` | Hash Calculator + Johnny | `password1` | ✅ Flag captured |
-| `My Locked PDF2.pdf` | Hash Calculator + Johnny | `1qaz2wsx` | ✅ Flag captured |
-| `My Locked PDF3.pdf` | Johnny | `good-luck` | ✅ PDF unlocked |
+| `My Locked PDF3.pdf` | Hash Calculator + Johnny | `1qaz2wsx` | ✅ Flag captured |
+| `My Locked PDF1.pdf` | Johnny | `good-luck` | ✅ PDF unlocked |
 
 ### CTF Flag
 
@@ -167,70 +167,41 @@ This practical strengthened my understanding of:
 
 ---
 
-## 📸 Evidence
+## 📸 Evidence 
+pdf1
+<img width="1162" height="857" alt="441881" src="https://github.com/user-attachments/assets/59d7edc3-a964-4592-8100-21ff8e8bd039" />
 
-The original practical report contains screenshots documenting:
+<img width="1447" height="840" alt="441880" src="https://github.com/user-attachments/assets/e119f408-5dd9-45ae-a89f-17fe95e33346" />
 
-1. John the Ripper / Johnny configuration.
-2. PDF hash extraction.
-3. Online dictionary attack results.
-4. John the Ripper cracking results.
-5. Successfully unlocked PDFs.
-6. CTF flag capture.
+Pdf2
+<img width="1600" height="899" alt="441878" src="https://github.com/user-attachments/assets/5bbbca99-cb95-4809-bc60-538a9361967c" />
 
-For a public GitHub repository, screenshots should be added under:
+<img width="1600" height="899" alt="441877" src="https://github.com/user-attachments/assets/3b26414c-5fc1-4bbf-b5b4-b0015f31a49e" />
 
-```text
-evidence/
-├── 01-john-settings.png
-├── 02-pdf2-hash.png
-├── 03-pdf3-hash.png
-├── 04-pdf1-cracking.png
-├── 05-pdf2-cracking.png
-├── 06-john-pdf1.png
-├── 07-john-pdf2.png
-├── 08-john-pdf3.png
-├── 09-flag-capture.png
-└── 10-flag.png
-```
+<img width="1600" height="792" alt="441873" src="https://github.com/user-attachments/assets/5e6320c9-be5d-4830-85e6-34e3ca919bf1" />
 
----
+<img width="1118" height="746" alt="441872" src="https://github.com/user-attachments/assets/b532a73b-dd98-4ad3-8c04-8ea1c9ce9a44" />
 
-## 📁 Suggested Repository Structure
+Pdf3
+<img width="1315" height="766" alt="441876" src="https://github.com/user-attachments/assets/d703f071-bc7d-4e29-9d9c-af9d33e9f168" />
 
-```text
-W3-PM2-PDF-Hash-Attack/
-│
-├── README.md
-├── report/
-│   └── W3-PM2-PenTest-Report.pdf
-│
-├── evidence/
-│   ├── 01-john-settings.png
-│   ├── 02-pdf2-hash.png
-│   ├── 03-pdf3-hash.png
-│   ├── 04-pdf1-cracking.png
-│   ├── 05-pdf2-cracking.png
-│   ├── 06-john-pdf1.png
-│   ├── 07-john-pdf2.png
-│   ├── 08-john-pdf3.png
-│   ├── 09-flag-capture.png
-│   └── 10-flag.png
-│
-└── .gitignore
-```
+<img width="1600" height="892" alt="441874" src="https://github.com/user-attachments/assets/fae6e498-d1fb-413b-9927-cc163e2783d8" />
+
+<img width="1397" height="776" alt="441875" src="https://github.com/user-attachments/assets/e7366ed7-f6aa-41cf-bfc9-08d7649d3e15" />
+
+
+
 
 ---
 
 ## 👤 Author
 
 **Sandra Chkumbi**  
-Cybersecurity Student — Cohort B083  
+Cybersecurity intern — Cohort B083  
 Networkwalks
 
-**Module:** W3-PM2  
-**Week:** 03  
-**Focus:** Password Cracking — PDF Hash Attack
+🔗 LinkedIn 
+https://www.linkedin.com/in/sandra-chikumbi-536160295?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 ---
 
