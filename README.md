@@ -79,17 +79,10 @@ The recovered passwords were used to open the corresponding challenge PDFs. The 
 
 | PDF | Method | Result | Outcome |
 |---|---|---|---|
-| `My Locked PDF1.pdf` | Hash Calculator + Johnny | `password1` | ✅ Flag captured |
+| `My Locked PDF2.pdf` | Hash Calculator + Johnny | `password1` | ✅ Flag captured |
 | `My Locked PDF3.pdf` | Hash Calculator + Johnny | `1qaz2wsx` | ✅ Flag captured |
 | `My Locked PDF1.pdf` | Johnny | `good-luck` | ✅ PDF unlocked |
 
-### CTF Flag
-
-```text
-nw{networkwalks_persistence_jtr_270521}
-```
-
-> Keep challenge flags and recovered credentials out of public repositories if the training provider considers them sensitive or if the challenge is still active.
 
 ---
 
